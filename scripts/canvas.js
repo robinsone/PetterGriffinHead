@@ -9,7 +9,7 @@ function oval(context, x, y, w, h)
     context.restore();
 }
 
-function drawCanvas(canvasId)
+function drawPeterGriffin(canvasId)
 {
     //// General Declarations
     var canvas = document.getElementById(canvasId);
