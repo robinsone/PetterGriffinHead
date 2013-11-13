@@ -31,3 +31,17 @@ body {
     vertical-align: middle;
     border: 0;
 }
+
+@media print,
+screen and (max-width: 720px) {
+   
+}
+@media print,
+screen and (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+}
+@media print {
+    
+}

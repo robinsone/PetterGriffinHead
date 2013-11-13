@@ -1,17 +1,18 @@
 var sound = document.getElementById("foobar");
 
 $(document).ready(function () {
-    var sound = document.getElementById("foobar");
+    var audio = new Audio("../sound/Ding_Fries_Are_Done.ogg");
+    audio.play();
     var playpause = true;
-    sound.play();
+    
 
     $('#playsound').click(function () {
         if (playpause) {
-            sound.pause();
+            audio.pause();
             $('#playicon').addClass('glyphicon-play').removeClass('glyphicon-pause');
             playpause = false;
         } else {
-            sound.play();
+            audio.play();
             $('#playicon').addClass('glyphicon-pause').removeClass('glyphicon-play');
             playpause = true;
         }
