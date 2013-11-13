@@ -1,7 +1,7 @@
-var sound = document.getElementById("foobar");
+
 
 $(document).ready(function () {
-    var audio = new Audio("../sound/Ding_Fries_Are_Done.ogg");
+    var audio = document.getElementById("sound");
     audio.play();
     var playpause = true;
     

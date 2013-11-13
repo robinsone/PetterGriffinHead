@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/petertube.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scripts/PeterTube.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
     <script>
         window.onload = function() {
@@ -18,14 +18,19 @@
 
 <body>
     <div class="container">
-            <div class="Peter">
-                <canvas id="mainCanvas" width="130" height="190"></canvas>
-                <div>
-                    <button type="button" id="playsound" class="btn btn-default btn-lg">
-                        <span id="playicon" class="glyphicon glyphicon-pause"></span>
-                    </button>
-                </div>
+        <div class="Peter">
+            <canvas id="mainCanvas" width="130" height="190"></canvas>
+            <div>
+                <button type="button" id="playsound" class="btn btn-default btn-lg">
+                    <span id="playicon" class="glyphicon glyphicon-pause"></span>
+                </button>
             </div>
+        </div>
+        <audio id="sound" preload="auto" autobuffer>
+            <source src="sound/Ding_Fries_Are_Done.ogg" />
+            <source src="sound/Ding_Fries_Are_Done.mp3" />
+            <!-- now include flash fall back -->
+        </audio>
     </div>
     <div style="position:relative;">
         <a href="https://github.com/robinsone/PetterGriffinHead">
