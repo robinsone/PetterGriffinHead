@@ -1,10 +1,12 @@
 PetterGriffinHead
 =================
 
-I've made a head of Peter Griffin from the show Family Guy. Using Javascript, css, html. 
+I've made the head of Peter Griffin from the show Family Guy. Using Javascript, css, html. 
 
 # Demo
 
+You can see the head [here](http://robinsone.github.io/PetterGriffinHead/).
+I've also made a fun little side project for a few friends of mine. Here's the [Demo](http://robinsone.github.io/PetterGriffinHead/petertube.html) 
 
 # License
 
