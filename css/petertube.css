@@ -1,0 +1,34 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+        
+}
+body {
+    box-shadow: inset 0 0 100px black;
+    background-color: #f3a693 !important;
+}
+.Peter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -65px;
+    width: 130px;
+    height: 190px;
+}
+.Peter div {
+    margin: 0 auto;
+    width: 130px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.selfie {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0;
+}
